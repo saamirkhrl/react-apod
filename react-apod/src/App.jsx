@@ -24,7 +24,7 @@ function App() {
       <div className="container">
         <h1>{apiData.title}</h1>
         <img src={apiData.url} alt={apiData.title} />
-        <p>{apiData.description}</p>
+        <p>{apiData.explanation}</p>
       </div>
     );
   }
